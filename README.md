@@ -48,3 +48,10 @@ No hay prórroga: suban avances parciales con commits pequeños durante la prueb
 | [`test-manager-library-3239137-page`](https://github.com/code-sena/test-manager-library-3239137-page) | Sitio público estático de presentación |
 | [`test-manager-library-3239137-infra`](https://github.com/code-sena/test-manager-library-3239137-infra) | Contenedores, red, volúmenes y motor de base de datos vacío |
 | [`test-manager-library-3239137-tool`](https://github.com/code-sena/test-manager-library-3239137-tool) | Utilidades: sembrador de datos de demostración |
+
+## Presentación implementada
+
+Página estática independiente de la API. Abrir index.html directamente
+o arrancar el servicio page de Docker Compose y visitar http://localhost:8080.
+El enlace al sistema apunta al entorno local http://localhost:5173.
+No utiliza peticiones a la API ni muestra datos personales.
